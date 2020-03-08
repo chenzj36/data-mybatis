@@ -1,5 +1,6 @@
 # SpringBoot整合Mybatis
 
+
 ###### 原文链接：https://www.cnblogs.com/hellokuangshen/p/11331338.html
 #### 导入依赖    
 ```
@@ -139,4 +140,4 @@ public class UserController {
     }
 }
 ```
-## 整合MyBatis参照此流程即可，报错根据提示改正。 
+## 整合MyBatis参照此流程即可，报错根据提示改正。

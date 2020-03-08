@@ -1,4 +1,5 @@
 # SpringBoot整合Mybatis
+
 ###### 原文链接：https://www.cnblogs.com/hellokuangshen/p/11331338.html
 #### 导入依赖    
 ```
@@ -16,8 +17,8 @@ spring.datasource.url=jdbc:mysql://localhost:3306?serverTimezone=UTC&useUnicode=
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ```
 #### 测试连接        
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580824572626.png)        
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580824626143.png)        
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580824572626.png)        
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580824626143.png)        
 #### 创建实体类        
 ```java
 package com.chenzj36.pojo;
@@ -85,7 +86,7 @@ public interface UserMapper {
 </mapper>
 ```
 #### SpringBoot配置文件添加映射关系            
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580825846558.png)
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580825846558.png)
 #### 编写controller    
 ```java
 package com.chenzj36.controller;
